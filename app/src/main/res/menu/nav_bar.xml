@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Main Screen"/>
+    <item
+        android:id="@+id/addplaces"
+        android:title="Add Places"
+        android:icon="@drawable/ic_add_location_black_24dp"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/ic_call_missed_outgoing_black_24dp"/>
+</menu>

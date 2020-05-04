@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:text="Save"
+        android:padding="10dp"
+        android:onClick="upload"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"/>
+    <Switch
+        android:id="@+id/dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="Enable Dark Mode"
+        android:textColor="#BD9007"
+        android:textSize="14dp"
+        android:layout_marginTop="20dp"/>
+
+</fragment>
