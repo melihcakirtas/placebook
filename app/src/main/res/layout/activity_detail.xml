@@ -40,7 +40,6 @@
             android:id="@+id/imageView_place"
             android:layout_width="match_parent"
             android:layout_height="180dp"
-            android:src="@drawable/ic_launcher_background"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="11dp"
             android:layout_gravity="center"
